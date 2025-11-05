@@ -21,6 +21,3 @@ else {
 int main(){
 jobSelect();
 }
-
-/*Input: Marks=72, Experience=3
-Output: Selected as Associate Developer*/
