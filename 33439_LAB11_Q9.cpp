@@ -8,7 +8,8 @@ cout<<"Enter power (b) : ";
 cin>>b;
 if(b<0){
     b=-b;
-    a=1/a;}
+    a=1/a;
+}
 
 for(int i=0 ; i<b ; i++){
 pwr*=a;
@@ -22,4 +23,5 @@ double res=power(a, b);
 cout<<res;
 
     return 0;
+
 }
