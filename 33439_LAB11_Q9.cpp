@@ -10,18 +10,15 @@ if(b<0){
     b=-b;
     a=1/a;
 }
-
 for(int i=0 ; i<b ; i++){
 pwr*=a;
     }
-
 return pwr;
 }
 int  main(){
 double a; double b;
 double res=power(a, b);
 cout<<res;
-
-    return 0;
-
+return 0;
 }
+
